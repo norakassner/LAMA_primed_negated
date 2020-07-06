@@ -11,13 +11,16 @@ following paper:
   booktitle={In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019},
   year={2019}
 }
-@article{Kassner2019NegatedLB,
-  title={Negated LAMA: Birds cannot fly},
-  author={Nora Kassner and Hinrich Sch{\"u}tze},
-  journal={ArXiv},
-  year={2019},
-  volume={abs/1911.03343}
-}
+@inproceedings{kassner-schutze-2020-negated,
+    title = "Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly",
+    author = {Kassner, Nora  and
+      Sch{\"u}tze, Hinrich},
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.698"}
 ```
 
 ## 1. Download Scripts
@@ -28,7 +31,7 @@ following paper:
 pip install -r requirements.txt```
 
 
-### 2. Download the models
+## 2. Download the models
 
 ~55 GB on disk
 
