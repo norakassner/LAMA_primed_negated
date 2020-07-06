@@ -29,7 +29,7 @@ following paper:
 
 ```conda create -n lama37 -y python=3.7 && conda activate lama37
 pip install -r requirements.txt```
-
+```
 
 ## 2. Download the models
 
