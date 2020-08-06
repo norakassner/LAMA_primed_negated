@@ -48,3 +48,16 @@ chmod +x download_models.sh
 
 The script will create and populate a _pre-trained_language_models_ folder.
 If you are interested in a particular model please edit the script.
+
+## 2. Negated LAMA
+
+Download the data via Facebook:
+```bash
+wget https://dl.fbaipublicfiles.com/LAMA/negated_data.tar.gz
+tar -xzvf negated_data.tar.gz
+rm negated_data.tar.gz
+```
+Set the set the flag `use_negated_probes` in `scripts/run_experiments.py`.
+## 3. Data mispriming
+
+Can be downloaded here
