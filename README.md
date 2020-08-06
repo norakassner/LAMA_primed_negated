@@ -11,6 +11,7 @@ following paper:
   booktitle={In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019},
   year={2019}
 }
+
 @inproceedings{kassner-schutze-2020-negated,
     title = "Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly",
     author = {Kassner, Nora  and
@@ -22,6 +23,8 @@ following paper:
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/2020.acl-main.698"}
 ```
+
+This repository extends the original LAMA probe by negated and misprimed probes. The negated probes are integrated into Facebook's original repository the misrpimed data can be downloaded here.
 
 ## 1. Download Scripts
 
@@ -58,6 +61,11 @@ tar -xzvf negated_data.tar.gz
 rm negated_data.tar.gz
 ```
 Set the set the flag `use_negated_probes` in `scripts/run_experiments.py`.
-## 3. Data mispriming
 
-Can be downloaded here
+## 3. Misprimed Data
+
+Download the data from this repository:
+
+```bash
+git clone https://github.com/norakassner/LAMA_primed_negated.git
+```
