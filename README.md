@@ -31,7 +31,7 @@ This repository extends the original LAMA probe by negated and misprimed probes.
     git clone https://github.com/facebookresearch/LAMA.git
 
 ```conda create -n lama37 -y python=3.7 && conda activate lama37
-pip install -r requirements.txt```
+pip install -r requirements.txt
 ```
 
 ## 2. Download the models
